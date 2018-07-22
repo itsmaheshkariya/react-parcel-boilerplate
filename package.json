@@ -1,10 +1,17 @@
 {
   "name": "react-parcel-boilerplate",
   "version": "1.0.0",
-  "description": "basic boilerplate for react and parcel",
+  "description": "Basic boilerplate for react and parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "parcel": "parcel index.html"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "latest",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "author": "Mahesh Kariya\\",
   "license": "ISC"
